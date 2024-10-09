@@ -1,0 +1,131 @@
+/* google font added */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #f2f4f7;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container{
+    width: 50%;
+    margin-left: 250px;
+    /* border: 2px solid red; */
+    margin-bottom: 100px;
+}
+
+.text-container .p1{
+    font-size: 56px;
+    color: #0866ff;
+    font-weight: 700;
+}
+.text-container span{
+    font-size: 24px;
+    font-weight: 600; 
+    color: black;
+}
+
+.login-form-container{
+    width: 70%;
+    /* border: 2px solid red; */
+}
+
+.login-form{
+    width: 55%;
+    height: 320px;
+    background-color: white;
+    padding: 20px 18px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+    margin: 0 auto;
+}
+
+input{
+    display: block;
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 16px 12px;
+    border: 2px solid #90949c2c;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    font-size: 18px;
+    color: #90949c;
+}
+
+.login-btn{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.log{
+    width: 99%;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.forget{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.forget a{
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.create{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.create button{
+    padding: 14px 18px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #42b72a;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.border{
+    border-bottom: 1px solid #e6e8e9;
+}
+
+.out-form{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.out-form a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.out-form a:hover{
+    text-decoration: underline;
+}
