@@ -129,3 +129,67 @@ input::placeholder{
 .out-form a:hover{
     text-decoration: underline;
 }
+
+
+/* small devices media qurery */
+@media screen and (max-width: 576px){
+    .container{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .text-container{
+        margin: 0;
+        width: 30%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .text-container span{
+        font-size: 16px;
+        font-weight: 600; 
+        color: black;
+    }
+    .text-container .p1{
+        font-size: 28px;
+        font-weight: 800; 
+        color: #0866ff;
+    }
+
+    .login-form-container{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .container{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .text-container{
+        margin: 0;
+        width: 40%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .text-container span{
+        font-size: 16px;
+        font-weight: 600; 
+        color: black;
+    }
+    .text-container .p1{
+        font-size: 32px;
+        font-weight: 800; 
+        color: #0866ff;
+    }
+
+    .login-form-container{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+}
